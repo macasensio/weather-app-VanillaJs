@@ -52,7 +52,7 @@ function renderError(){
 
     weatherDataDiv.querySelector('.icon').innerHTML = ``
     weatherDataDiv.querySelector('.temperature').textContent = ``
-    weatherDataDiv.querySelector('.description').innerHTML = `<p class="error">${cityInput.value === '' ? 'The input is empty, please try again' : 'An error happended, please try again later'}</p>`
+    weatherDataDiv.querySelector('.description').innerHTML = `<p class="error">${cityInput.value === '' ? 'The input is empty, please try again' : 'An error happened, please try again later'}</p>`
     weatherDataDiv.querySelector('.details').innerHTML = ``
 }
 
