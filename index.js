@@ -1,5 +1,3 @@
-const apiKey = '3eb34dcd0be01fb58d4416628a4cc0cf'
-
 const weatherDataDiv = document.getElementById('wheather-data')
 const cityInput = document.getElementById('city')
 
@@ -15,7 +13,7 @@ form.addEventListener('submit', e => {
 
 async function getWeatherData(city) {
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3eb34dcd0be01fb58d4416628a4cc0cf&units=metric`)
         if(!response.ok) {
             throw new Error('Network response was not ok')
         }
