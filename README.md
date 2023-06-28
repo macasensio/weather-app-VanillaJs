@@ -12,5 +12,5 @@
 #### API - Open Weather Map
 [https://openweathermap.org/api](https://openweathermap.org/api)
 
-####GitHub Pages
+##### API - Open Weather Map
 [https://macasensio.github.io/weather-app-VanillaJs/](https://macasensio.github.io/weather-app-VanillaJs/)
